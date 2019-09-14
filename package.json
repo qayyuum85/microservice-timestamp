@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "timestamp microservice app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "app",
+    "microservice"
+  ],
+  "author": "Qayyuum",
+  "license": "ISC",
+  "engines": {
+    "node": "v10.16.3"
+  }
+}
