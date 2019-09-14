@@ -39,7 +39,7 @@ const requestHandler = (req, res) => {
     res.writeHead(200, { ContentType: "application/json" });
     res.end(JSON.stringify(timestamp));
   } else {
-    fs.readFile("views/404.html", (err, html) => {
+    fs.readFile("views/404.html", "utf8", (err, html) => {
       if (err) {
         throw err;
       }
